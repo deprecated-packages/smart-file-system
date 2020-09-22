@@ -1,0 +1,32 @@
+{
+    "name": "symplify/smart-file-system",
+    "description": "Sanitized FileInfo with safe getRealPath() and other handy methods",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "nette/utils": "^3.0",
+        "symfony/finder": "^4.4|^5.1",
+        "symfony/filesystem": "^4.4|^5.1"
+    },
+    "require-dev": {
+        "nette/finder": "^2.5",
+        "phpunit/phpunit": "^8.5|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Symplify\\SmartFileSystem\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Symplify\\SmartFileSystem\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "8.4-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
